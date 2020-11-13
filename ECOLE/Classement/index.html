@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST SCHOOL</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/classement.css">
+</head>
+<body>
+
+    <!-- Contenu -->
+    <div class="content">
+        <div class="container ">
+            <div class="contentRight">
+                <div class="contentTitle mb-5">
+                    <h1>CLASSEMENT DES ETUDIANTS</h1>
+                </div>
+    
+                <!-- Formulaire -->
+                <div class="formulaire">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <div class="form-group">
+                                    <label for="matricule">Matricule</label>
+                                    <input type="text" class="form-control" id="matricule" placeholder="Entrez le matricule">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                                <div class="form-group">
+                                    <label for="matricule">Nom</label>
+                                    <input type="text" class="form-control" id="matricule" placeholder="Entrez le Nom">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+                                <button type="submit" class="btn">Rechercher</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+    
+                <!-- Tableau -->
+                <div class="tableau">
+                    <table class="table table-hover table-dark table-bordered">
+                        <thead class="headTable">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col" style="width: 12%;">MATRICULE</th>
+                                <th scope="col" style="width: 15%;">NOM</th>
+                                <th scope="col">PRENOM(S)</th>
+                                <th scope="col" style="width: 12%;">CLASSE</th>
+                                <th scope="col" style="width: 14%;">MOY. GENERALE</th>
+                                <th scope="col">ACTION</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>000</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>16</td>
+                                <td>X</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>000</td>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>16</td>
+                                <td>Y</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>000</td>
+                                <td>Larry the Bird</td>
+                                <td>Ibra</td>
+                                <td>@twitter</td>
+                                <td>16</td>
+                                <td>Z</td>
+                            </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright &copy; 2020, GHOST SCHOOL</p>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST SCHOOL</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/matiere.css">
+</head>
+<body>
+
+    <!-- Contenu -->
+    <div class="content">
+        <div class="container ">
+            <div class="contentTitle mb-5">
+                <h1>LISTE DES MATIERES</h1>
+            </div>
+            <div class="AddEtudiant">
+                <button class="ajouterEtudiant btn-secondary">Ajouter Matière</button>
+            </div>
+
+            <!-- Formulaire -->
+            <div class="formulaire">
+                <form action="#">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="form-group">
+                                <label for="matricule">Nom</label>
+                                <input type="text" class="form-control" id="matricule" placeholder="Entrez le Nom">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <button type="submit" class="btn">Rechercher</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Tableau -->
+            <div class="tableau">
+                <table class="table table-hover table-dark table-bordered">
+                    <thead class="headTable">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">NOM</th>
+                            <th scope="col">DESCRIPTION</th>
+                            <th scope="col">ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>@mdo</td>
+                            <td>X</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>@fat</td>
+                            <td>Y</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry the Bird</td>
+                            <td>Ibra</td>
+                            <td>Z</td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright &copy; 2020, GHOST SCHOOL</p>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
